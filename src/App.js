@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
 
 //Components
 import Navbar from './Components/Navbar';
@@ -12,6 +11,7 @@ import Contact from './views/Contact';
 import ErrorPage from './views/ErrorPage';
 
 //Styles
+import './App.css';
 import "./styles.css"
 
 function App() {
