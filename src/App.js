@@ -16,6 +16,7 @@ import "./styles.css"
 
 function App() {
   return (
+    <div className="w-5/6 mx-auto">
    <Router>
      <Navbar />
      <Switch>
@@ -26,6 +27,7 @@ function App() {
        <Route path="*" component={ErrorPage}/>
      </Switch>
    </Router>
+    </div>
   );
 }
 

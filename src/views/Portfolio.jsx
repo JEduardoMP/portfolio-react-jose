@@ -3,8 +3,9 @@
 const Portfolio = () => {
     return(
         <section>
-            <h2>Portfolio</h2>
-            <p>In this section I will leave you a link to my projects in GitHub, and some deploys on Netlify</p>
+            <h2 className="text-4xl">Portfolio</h2>
+        
+            <p className="font-light py-2">In this section I will leave you a link to my projects in GitHub, and some deploys on Netlify</p>
             
             <figure>
                 <img src="#" alt="To-Do List" />
