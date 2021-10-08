@@ -5,14 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      black: colors.black,
-      white: colors.white,
-      gray: colors.trueGray,
-      indigo: colors.indigo,
       gold: '#F0A500',
       yellow: '#FEE440',
+      red: '#950101'
     },
     extend: {},
   },

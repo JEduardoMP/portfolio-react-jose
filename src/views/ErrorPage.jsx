@@ -1,8 +1,11 @@
-
+import { Link } from "react-router-dom";
 
 const ErrorPage = () => {
     return (
-        <h2>Error 404</h2>
+        <div>
+            <h2>Error 404</h2>
+            <Link exact to="/">Back home</Link>
+        </div>
     )
 }
 

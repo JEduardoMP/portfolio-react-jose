@@ -24,15 +24,18 @@ a {
     transition: left 3s;
     background-color: saddlebrown;
   } */
-  h3{
+  span.effect{
     position: relative;
   }
-  h3 span{
-    position: absolute;
-    right: 0;
-    width: 0;
-    border-left: 3px solid #000;
+  span.effect::after{
+    content: "";
     background: #f6f6f6;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    border-left: solid 2px;
     animation: write 3s infinite alternate;
   }
   
@@ -40,7 +43,3 @@ a {
     from { width: 100% };
     to {width: 0%};
   }
-
-body{
-  
-}
