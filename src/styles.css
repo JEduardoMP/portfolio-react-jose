@@ -8,6 +8,7 @@ html {
 }
 
 body{
+    width: 100vw;
     background-color: #f6f6f6;
     /* height: 100vh;  */
     scroll-behavior: smooth;
@@ -42,4 +43,9 @@ a {
   @keyframes write {
     from { width: 100% };
     to {width: 0%};
+  }
+
+  i{
+    font-size: 4rem;
+    margin-bottom: 1.5rem
   }

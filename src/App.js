@@ -5,7 +5,6 @@ import Navbar from './Components/Navbar';
 
 //Views
 import HomePage from './views/HomePage';
-import AboutPage from './views/AboutPage';
 import Portfolio from './views/Portfolio';
 import Contact from './views/Contact';
 import ErrorPage from './views/ErrorPage';
@@ -21,7 +20,6 @@ function App() {
      <Navbar />
      <Switch>
        <Route exact path="/" component={HomePage} />
-       <Route exact path="/about" component={AboutPage} />
        <Route exact path="/portfolio" component={Portfolio} />
        <Route exact path="/contact" component={Contact} />
        <Route path="*" component={ErrorPage}/>
