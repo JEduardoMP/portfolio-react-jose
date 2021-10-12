@@ -23,10 +23,10 @@ const Contact = () => {
                 </div>
 
                 <div className="w-full flex flex-col text-center md:col-start-1 md:col-end-3 lg:col-start-1 lg:col-end-4 lg:text-left">
-                    <label htmlFor="">Message <span className="text-red font-bold">*</span></label>
+                    <label htmlFor="">Message</label>
                     <textarea type="text" name="message" id=""  className="p-8"/>
                 </div>
-                <input type="submit" name="Submit" id="" className="mb-8 p-4 bg-gold hover:bg-yellow md:col-start-1 col-end-3 lg:col-start-3 lg:col-end-4 lg:w-5/6 lg:flex-row-reverse "/>
+                <input type="submit" name="Submit" id="" className="my-4 p-4 bg-gold hover:bg-yellow md:col-start-1 col-end-3 lg:col-start-3 lg:col-end-4 lg:w-5/6 lg:ml-auto"/>
             </form>
         </section>
     )

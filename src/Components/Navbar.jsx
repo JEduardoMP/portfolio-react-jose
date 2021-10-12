@@ -8,8 +8,8 @@ const Navbar = () => {
             <div className="flex">
                 <img src={mypicture} alt="myself" className="rounded-full h-24"/>
             </div>
-            <div className="flex flex-col justify-end ml-4 md:w-6/12">
-                <h2 className="font-bold text-2xl md:text-2x1">Jose E. Marquez</h2>
+            <div className="flex flex-col justify-end ml-4 md:w-4/12 lg:w-4/12">
+                <h2 className="font-bold text-2xl md:text-2x1 md:mb-4">Jose E. Marquez</h2>
                 <ul className="font-bold text-sm mt-2 flex justify-between lg:text-lg">
                     <li>
                         <NavLink exact to="/" activeClassName="text-gold">
