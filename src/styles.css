@@ -52,3 +52,24 @@ a {
     justify-content: center;
     align-items: center;
   }
+
+
+  .appear{
+    height: 50%;
+    width: 100%;
+    opacity: 0;
+    transition: ease 1s;
+  }
+  @media (min-width: 768px) {
+    .appear{
+      height: 50vh;
+      width: 50%;
+      opacity: 0;
+      transition: ease 1s;
+    }
+  }
+
+  .appear:hover{
+    opacity: 1;
+    /* transition: ease 1s; */
+  }
