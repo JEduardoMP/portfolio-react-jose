@@ -6,7 +6,7 @@ const Navbar = () => {
     return(
         <header className="flex items-center my-8">
             <div className="flex">
-                <img src={mypicture} alt="my photo" className="rounded-full h-24"/>
+                <img src={mypicture} alt="myself" className="rounded-full h-24"/>
             </div>
             <div className="flex flex-col justify-end ml-4 md:w-6/12">
                 <h2 className="font-bold text-2xl md:text-2x1">Jose E. Marquez</h2>
