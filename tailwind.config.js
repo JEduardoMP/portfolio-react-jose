@@ -4,12 +4,11 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    colors: {
-      gold: '#F0A500',
-      yellow: '#FEE440',
-      red: '#950101'
+    extend: {
+      colors: {
+        primary: '#f6f6f6'
+      }
     },
-    extend: {},
   },
   variants: {
     extend: {},
