@@ -12,7 +12,7 @@ import "./styles.css"
 
 function App() {
   return (
-    <div className="w-screen">
+    <div className="w-full">
       
       <Navbar />
 

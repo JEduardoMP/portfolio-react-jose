@@ -2,10 +2,10 @@
 
 const Contact = () => {
     return(
-        <section className="text-gray-600 body-font relative max-w-full">
+        <section className="text-gray-600 body-font relative px-5 w-full">
 
-            <div class="container mx-auto px-5 text-center mb-20">
-                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 uppercase">S k i l l s</h1>
+            <div class="container mx-auto text-center">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 uppercase">P o r t f o l i o</h1>
                 <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine, ramps microdosing banh mi pug.</p>
                 <div class="flex mt-6 justify-center">
                     <div class="w-16 h-1 rounded-full bg-yellow-500 inline-flex">
@@ -13,7 +13,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+            <div className="container py-24 mx-auto flex sm:flex-nowrap flex-wrap">
                 
                 <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
                     <iframe className="absolute inset-0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d60711.799522073394!2d-92.95398006995023!3d18.002567016712185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1637351342709!5m2!1ses-419!2smx" width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>
