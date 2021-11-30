@@ -22,7 +22,7 @@ const Navbar = () => {
                 </a>
                 <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
                     <a href="#skills-page" className="mr-5 hover:text-gray-900" onClick="">Skills</a>
-                    <a className="mr-5 hover:text-gray-900" onClick="">Portfolio</a>
+                    <a href="#portfolio" className="mr-5 hover:text-gray-900" onClick="">Portfolio</a>
                     <a href="#contact-section" className="mr-5 hover:text-gray-900">Contact</a>
                 </nav>
             </div>

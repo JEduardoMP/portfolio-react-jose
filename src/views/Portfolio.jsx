@@ -11,17 +11,18 @@ const Portfolio = () => {
                 </div>
             </div>
 
+            {/* First tab */}
             <div class="container px-5 pb-24 mx-auto">
                 <div class="flex flex-wrap -m-4">
                 <div class="p-4 md:w-1/3">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog" />
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://d33wubrfki0l68.cloudfront.net/61986af6be45425f8f42b45f/screenshot_2021-11-20-03-28-15-0000.png" alt="Dashboard" />
                     <div class="p-6">
                         <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                        <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Socialmedia Dashboard</h1>
+                        <p class="leading-relaxed mb-3">A simple dashboard where you can see the status about your socialmedia.</p>
                         <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                        <a href="https://socialmediadashboard-jemp.netlify.app/" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
@@ -42,15 +43,17 @@ const Portfolio = () => {
                     </div>
                     </div>
                 </div>
+
+                {/* Second tab */}
                 <div class="p-4 md:w-1/3">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog" />
+                    <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://d33wubrfki0l68.cloudfront.net/616622dbd015b300089ae605/screenshot_2021-10-13-00-06-39-0000.png" alt="blog" />
                     <div class="p-6">
                         <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The 400 Blows</h1>
-                        <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">CRUD</h1>
+                        <p class="leading-relaxed mb-3">This is a CRUD made with pure logic in front, develop with React.js and Context.</p>
                         <div class="flex items-center flex-wrap">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                        <a href="https://todolistjose.netlify.app/" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
@@ -71,15 +74,17 @@ const Portfolio = () => {
                     </div>
                     </div>
                 </div>
+
+                {/* Third tab */}
                 <div class="p-4 md:w-1/3">
                     <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                     <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog" />
                     <div class="p-6">
                         <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
-                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Shooting Stars</h1>
-                        <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Trivia Vanilla JS</h1>
+                        <p class="leading-relaxed mb-3">A project where is used a API to get the questions. This project is developed with vanilla JS, HTML and CSS.</p>
                         <div class="flex items-center flex-wrap ">
-                        <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                        <a href="https://trivia-js.netlify.app/" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
