@@ -1,9 +1,10 @@
 const Skills = () => {
     return(
-        <section className="text-gray-600 body-font max-w-full">
+        <section className="text-gray-600 body-font max-w-full" id='skills-page'>
 
             <div className="container px-5 py-24 mx-auto">
-                <div className="text-center mb-20">
+
+                <div className="text-center mb-16">
                     <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 uppercase">S k i l l s</h1>
                     <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">These are the technical skills I have for web development.</p>
                     <div className="flex mt-6 justify-center">
@@ -12,7 +13,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+                <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 md:divide-x">
                     <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
                         <div className="text-yellow-500 mb-5 flex-shrink-0">
                             <i className="fab fa-react bg-yellow-100 rounded-full p-3.5 "></i>
@@ -28,6 +29,8 @@ const Skills = () => {
                             <p className="leading-relaxed text-base md:mb-4">
                                 - Tailwind and bootstrap for layout.
                             </p>
+                        </div>
+                        <div>
                             <a className="mt-3 text-yellow-500 inline-flex items-center">
                                 Learn More
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2 align-baseline" viewBox="0 0 24 24">
@@ -55,6 +58,8 @@ const Skills = () => {
                             <p className="leading-relaxed text-base md:mb-4">
                                 - Database conection.
                             </p> 
+                        </div>
+                        <div>
                             <a className="mt-3 text-yellow-500 inline-flex items-center">Learn More
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -63,7 +68,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+                    <div className="p-4 w-full md:w-1/3 flex flex-col text-center items-center">
                         <div className="text-yellow-500 mb-5 flex-shrink-0">
                             <i class="fas fa-database bg-yellow-100 py-4 px-5 rounded-full text-6xl"></i>
                         </div>
@@ -72,12 +77,16 @@ const Skills = () => {
                             <p className="leading-relaxed text-base">
                                 - PostgresSQL
                             </p>
+                            <br />
                             <p className="leading-relaxed text-base">
                                 - MongoDB
                             </p>
+                            <br />
                             <p className="leading-relaxed text-base">
                                 - SQL commands
                             </p>
+                        </div>
+                        <div className="">
                             <a className="mt-3 text-yellow-500 inline-flex items-center">Learn More
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>

@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import HeroPage from './views/HeroPage';
 import Contact from './views/Contact';
 import Skills from './views/SkillsPage';
+import Portfolio from './views/Portfolio';
 
 //Styles
 import './App.css';
@@ -19,6 +20,8 @@ function App() {
       <HeroPage />
 
       <Skills />
+
+      <Portfolio />
 
       <Contact />
 
