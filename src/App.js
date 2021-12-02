@@ -6,6 +6,7 @@ import HeroPage from './views/HeroPage';
 import Contact from './views/Contact';
 import Skills from './views/SkillsPage';
 import Portfolio from './views/Portfolio';
+import Footer from './Components/Footer';
 
 //Styles
 import './App.css';
@@ -25,6 +26,7 @@ function App() {
 
       <Contact />
 
+      <Footer />
 
     </div>
   );
