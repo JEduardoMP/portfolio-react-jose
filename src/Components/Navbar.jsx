@@ -20,7 +20,7 @@ const Navbar = () => {
                     </svg>
                     <span className="ml-3 text-xl">JEMP</span>
                 </a>
-                <nav className="md:mx-auto flex flex-wrap items-center text-base justify-center">
+                <nav className="mx-auto flex flex-wrap items-center text-base justify-center">
                     <a href="#skills-page" className="mr-5 hover:text-gray-900" onClick="">Skills</a>
                     <a href="#portfolio" className="mr-5 hover:text-gray-900" onClick="">Portfolio</a>
                     <a href="#contact-section" className="mr-5 hover:text-gray-900">Contact</a>
