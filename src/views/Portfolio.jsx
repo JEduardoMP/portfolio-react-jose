@@ -1,3 +1,5 @@
+import triviaImg from '../assets/Trivia.jpg'
+
 const Portfolio = () => {
     return(
         <section className="text-gray-600 body-font py-24" id="portfolio">
@@ -22,7 +24,7 @@ const Portfolio = () => {
                         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Socialmedia Dashboard</h1>
                         <p className="leading-relaxed mb-3">A simple dashboard where you can see the status about your socialmedia.</p>
                         <div className="flex items-center flex-wrap ">
-                        <a href="https://socialmediadashboard-jemp.netlify.app/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                        <a href="https://socialmediadashboard-jemp.netlify.app/" target="_blank" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
@@ -53,7 +55,7 @@ const Portfolio = () => {
                             <h1 className="title-font text-lg font-medium text-gray-900 mb-3">CRUD</h1>
                             <p className="leading-relaxed mb-3">This is a CRUD made with pure logic in front, develop with React.js and Context.</p>
                             <div className="flex items-center flex-wrap">
-                                <a href="https://todolistjose.netlify.app/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                                <a href="https://todolistjose.netlify.app/" target="_blank" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                                     <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path d="M5 12h14"></path>
                                     <path d="M12 5l7 7-7 7"></path>
@@ -78,13 +80,13 @@ const Portfolio = () => {
                 {/* Third tab */}
                 <div className="p-4 md:w-1/3">
                     <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                    <img className="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/722x402" alt="blog" />
+                    <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={triviaImg} alt="Trivia" />
                     <div className="p-6">
                         <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
                         <h1 className="title-font text-lg font-medium text-gray-900 mb-3">Trivia Vanilla JS</h1>
                         <p className="leading-relaxed mb-3">A project where is used a API to get the questions. This project is developed with vanilla JS, HTML and CSS.</p>
                         <div className="flex items-center flex-wrap ">
-                        <a href="https://trivia-js.netlify.app/" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                        <a href="https://trivia-js.netlify.app/" target="_blank" className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                             <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>
