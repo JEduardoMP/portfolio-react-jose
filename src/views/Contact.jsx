@@ -1,8 +1,19 @@
+import { useEffect, useRef } from "react";
+
+// Custom hooks
+import { observer } from "../hooks/observer";
 
 
 const Contact = () => {
+
+    const contactRef = useRef();
+
+    useEffect(() => {
+        observer.observe(contactRef.current)
+    })
+
     return(
-        <section className="text-gray-600 body-font relative px-5 w-full pb-24" id="contact-section">
+        <section ref={contactRef} className="text-gray-600 body-font relative px-5 w-full pb-24 card" id="contact-section">
 
             <div class="container pb-16 px-5 mx-auto text-center">
                 <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 uppercase">C o n t a c t</h1>

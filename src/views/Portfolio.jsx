@@ -1,8 +1,21 @@
-import triviaImg from '../assets/Trivia.jpg'
+import { useEffect, useRef } from 'react';
+import triviaImg from '../assets/Trivia.jpg';
+
+// Custom hooks
+import { observer } from '../hooks/observer';
+
+// styles
+import '../styles/animation.css';
 
 const Portfolio = () => {
+
+    const portfolioRef = useRef();
+
+    useEffect(() => {
+        observer.observe(portfolioRef.current)
+    })
     return(
-        <section className="text-gray-600 body-font py-24" id="portfolio">
+        <section ref={portfolioRef} className="text-gray-600 body-font py-24 card" id="portfolio">
 
             <div className="container px-5 pb-16 mx-auto text-center">
                 <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4 uppercase">P o r t f o l i o</h1>

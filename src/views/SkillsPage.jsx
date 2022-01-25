@@ -1,6 +1,18 @@
+import { useEffect, useRef } from "react";
+
+// Custom hooks
+import { observer } from "../hooks/observer";
+
 const Skills = () => {
-    return(
-        <section className="text-gray-600 body-font max-w-full" id='skills-page'>
+
+    const skillsRef = useRef();
+
+    useEffect(() => {
+        observer.observe(skillsRef.current); 
+    })
+
+    return (
+        <section ref={skillsRef} className="text-gray-600 body-font max-w-full card" id='skills-page'>
 
             <div className="container px-5 py-24 mx-auto">
 
@@ -14,7 +26,7 @@ const Skills = () => {
                 </div>
 
                 <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 md:divide-x">
-                    <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+                    <div className="p-4 md:w-1/3 flex flex-col text-center items-center w-full">
                         <div className="text-yellow-500 mb-5 flex-shrink-0">
                             <i className="fab fa-react bg-yellow-100 rounded-full p-3.5 "></i>
                         </div>
@@ -40,7 +52,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+                    <div className="p-4 md:w-1/3 flex flex-col text-center items-center w-full">
                         <div className="text-yellow-500 mb-5 flex-shrink-0">
                             <i class="fab fa-node bg-yellow-100 rounded-full px-2 py-4 text-6xl"></i>
                         </div>
@@ -57,7 +69,7 @@ const Skills = () => {
                             </p>
                             <p className="leading-relaxed text-base md:mb-4">
                                 - Database conection.
-                            </p> 
+                            </p>
                         </div>
                         <div>
                             <a className="mt-3 text-yellow-500 inline-flex items-center">Learn More

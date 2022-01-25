@@ -1,0 +1,28 @@
+.card {
+    animation: cardout 1s;
+    opacity: 0;
+}
+.card.show {
+    animation: cardin 1s;
+    opacity: 1;
+}
+@keyframes cardout {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+}
+@keyframes cardin {
+    from {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

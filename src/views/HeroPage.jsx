@@ -1,11 +1,21 @@
 // Assets
+import { useEffect, useRef } from 'react'
 import PDF from '../assets/Marquez-cv.pdf'
 import myPhoto from '../assets/personal.jpg'
 
+// Custom hooks
+import { observer } from '../hooks/observer'
+
 const HeroPage = () => {
 
+    const heroRef = useRef();
+
+    useEffect(() => {
+        observer.observe(heroRef.current)
+    })
+
     return (
-        <section className="text-gray-600 body-font pt-16 max-w-full flex md:py-24" id="hero">
+        <section ref={heroRef} className="text-gray-600 body-font pt-16 max-w-full flex md:py-24 card" id="hero">
             <div className="container mx-auto flex px-5 pb-8 pt-24 md:flex-row flex-col items-center">
                 <div className="lg:flex-grow md:w-1/2 lg: md: flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                     <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hi there! I'm Jose Eduardo
